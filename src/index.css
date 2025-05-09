@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color); /* темная тема по умолчанию */
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #161B22;
+  color: #C9D1D9;
+}
+
+td {
+  background-color: #0D1117;
+}
+
+button {
+  padding: 6px 10px;
+  background-color: #238636;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2ea043;
+}
+
+td:nth-child(3) {
+  min-width: 120px;
+}
+

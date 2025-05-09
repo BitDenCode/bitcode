@@ -1,0 +1,18 @@
+.site-footer {
+  background-color: var(--bg-color);
+  border-top: 1px solid var(--border-color);
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-container p {
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-container p {
+    font-size: 12px;
+  }
+}

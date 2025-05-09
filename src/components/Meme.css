@@ -1,0 +1,30 @@
+.meme-info {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.8;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.meme-info h2 {
+  margin-top: 30px;
+  
+}
+
+.meme-info h3 {
+  margin-top: 20px;
+  
+}
+
+.meme-info ul {
+  padding-left: 20px;
+}
+
+.plus {
+  color: limegreen;
+}
+
+.minus {
+  color: crimson;
+}

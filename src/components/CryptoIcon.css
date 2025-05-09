@@ -1,0 +1,55 @@
+.crypto-icon-wrapper {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}
+
+.crypto-icon-skeleton {
+  width: 100%;
+  height: 100%;
+  background-color: #444;
+  animation: pulse 1.5s infinite ease-in-out;
+  border-radius: 50%;
+}
+
+.crypto-icon-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+}
+
+.crypto-icon-img.hidden {
+  opacity: 0;
+}
+
+.crypto-icon-img.visible {
+  opacity: 1;
+}
+
+.crypto-icon-fallback {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  color: #ff4d4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  border-radius: 50%;
+}
+
+/* Skeleton animation */
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

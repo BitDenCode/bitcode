@@ -14,7 +14,7 @@ const MainSection = () => {
         </p>
       </div>
       <div className="image-content">
-        <img src="/public/icons/floks.png" alt="Memecoins" />
+        <img src="/icons/myfloks.png" alt="Memecoins" />
       </div>
     </section>
   );
